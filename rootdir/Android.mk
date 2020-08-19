@@ -74,3 +74,5 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_SRC_FILES    := ueventd.qcom.rc
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR)
 include $(BUILD_PREBUILT)
+
+include $(LOCAL_PATH)/../kang/rootdir/Android.mk

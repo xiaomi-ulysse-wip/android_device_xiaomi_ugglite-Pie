@@ -150,8 +150,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/firmware_mnt:/firmware \
     /mnt/vendor/persist:/persist
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 3221225472
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 25765043200
-BOARD_VENDORIMAGE_PARTITION_SIZE   := 536870912
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -205,3 +203,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Inherit the common proprietary files
 -include vendor/xiaomi/ugg/BoardConfigVendor.mk
 -include vendor/xiaomi/msm8937-common/BoardConfigVendor.mk
+
+# Kang from xiaomi-ulysse dt
+include $(DEVICE_PATH)/kang/BoardConfig.mk

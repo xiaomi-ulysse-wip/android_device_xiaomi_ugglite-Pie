@@ -392,3 +392,6 @@ PRODUCT_COPY_FILES += \
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/ugg/ugg-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-vendor.mk)
+
+# Kang from xiaomi-ulysse dt
+$(call inherit-product, $(DEVICE_PATH)/kang/device.mk)
