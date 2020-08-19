@@ -28,7 +28,7 @@ $(call inherit-product, device/xiaomi/ugg/device.mk)
 
 PRODUCT_NAME := lineage_ugg
 PRODUCT_DEVICE := ugg
-PRODUCT_MODEL := Redmi Note 5A
+PRODUCT_MODEL := Redmi Note 5A Prime
 PRODUCT_BRAND := xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR_PRODUCT_NAME := ugg
