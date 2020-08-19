@@ -38,7 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="ugg" \
     PRODUCT_NAME="ugg" \
-    PRIVATE_BUILD_DESC="ugg-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
+    PRIVATE_BUILD_DESC="ugg-user 7.1.2 N2G47H V9.5.8.0.NDKMIFA release-keys"
 
 # Set BUILD_FINGERPRINT variable
-BUILD_FINGERPRINT := "Xiaomi/ugg/ugg:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/ugg/ugg:7.1.2/N2G47H/V9.5.8.0.NDKMIFA:user/release-keys"
