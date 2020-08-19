@@ -1,4 +1,4 @@
-# Audio ACDB - from ugglite V9.8.29.N2G47H
+# Audio ACDB - from ugg V9.8.29.N2G47H
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
@@ -49,7 +49,7 @@ etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:vendor/etc/acdbdat
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
-# Camera - from ugglite V9.1.2.0.NDFMIEI
+# Camera - from ugg V9.1.2.0.NDFMIEI
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
@@ -256,7 +256,7 @@ vendor/lib64/libmmsw_platform.so
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
 
-# Camera actuators - from ugglite V9.1.2.0.NDFMIEI
+# Camera actuators - from ugg V9.1.2.0.NDFMIEI
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
 vendor/lib/libactuator_ak7345.so
@@ -275,7 +275,7 @@ vendor/lib/libactuator_ak7372_ulysse.so
 vendor/lib/libactuator_dw9763_ov12a10_sunny.so
 vendor/lib/libactuator_fp5510_f13855bd.so
 
-# Camera chromatix - from ugglite V9.1.2.0.NDFMIEI
+# Camera chromatix - from ugg V9.1.2.0.NDFMIEI
 vendor/lib/libchromatix_ov12a10_4K.so
 vendor/lib/libchromatix_ov12a10_4K_preview_dw9763.so
 vendor/lib/libchromatix_ov12a10_4K_video_dw9763.so
@@ -1877,7 +1877,7 @@ vendor/lib/libchromatix_s5k3m2xx_video_4k.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so
 
-# Camera configs - from ugglite V9.1.2.0.NDFMIEI
+# Camera configs - from ugg V9.1.2.0.NDFMIEI
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
 etc/camera/imx214_chromatix.xml:vendor/etc/camera/imx214_chromatix.xml
@@ -1941,7 +1941,7 @@ etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix_india.xml:vendor/etc/camera/s5k5e8_
 etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml
 etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml
 
-# Camera firmware - from ugglite V9.1.2.0.NDFMIEI
+# Camera firmware - from ugg V9.1.2.0.NDFMIEI
 etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
@@ -1953,6 +1953,6 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# IR - from ugglite V9.1.2.0.NDFMIEI
+# IR - from ugg V9.1.2.0.NDFMIEI
 lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so

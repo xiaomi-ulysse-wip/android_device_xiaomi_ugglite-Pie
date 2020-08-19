@@ -1,6 +1,6 @@
 (C) The LineageOS Project 2019
 
-Xiaomi Redmi Note 5A / Y1 Lite | Codename: _"ugglite"_
+Xiaomi Redmi Note 5A / Y1 Lite | Codename: _"ugg"_
 
 ## Device specifications
 

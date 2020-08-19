@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/ugglite
+DEVICE_PATH := device/xiaomi/ugg
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -390,5 +390,5 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 
 # Inherit common proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/ugglite/ugglite-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/ugg/ugg-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-vendor.mk)

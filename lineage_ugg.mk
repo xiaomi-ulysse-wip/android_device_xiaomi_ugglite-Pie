@@ -23,22 +23,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from ugglite device
-$(call inherit-product, device/xiaomi/ugglite/device.mk)
+# Inherit from ugg device
+$(call inherit-product, device/xiaomi/ugg/device.mk)
 
-PRODUCT_NAME := lineage_ugglite
-PRODUCT_DEVICE := ugglite
+PRODUCT_NAME := lineage_ugg
+PRODUCT_DEVICE := ugg
 PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_BRAND := xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR_PRODUCT_NAME := ugglite
+TARGET_VENDOR_PRODUCT_NAME := ugg
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="ugglite" \
-    PRODUCT_NAME="ugglite" \
-    PRIVATE_BUILD_DESC="ugglite-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
+    TARGET_DEVICE="ugg" \
+    PRODUCT_NAME="ugg" \
+    PRIVATE_BUILD_DESC="ugg-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
 
 # Set BUILD_FINGERPRINT variable
-BUILD_FINGERPRINT := "Xiaomi/ugglite/ugglite:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/ugg/ugg:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys"

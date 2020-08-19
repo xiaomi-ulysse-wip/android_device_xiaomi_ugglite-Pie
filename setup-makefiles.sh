@@ -20,7 +20,7 @@ set -e
 INITIAL_COPYRIGHT_YEAR=2019
 
 # Required!
-export DEVICE=ugglite
+export DEVICE=ugg
 export DEVICE_COMMON=msm8937-common
 export VENDOR=xiaomi
 
@@ -41,7 +41,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
-write_headers "ugglite"
+write_headers "ugg"
 
 # The standard common blobs
 write_makefiles "$MY_DIR"/proprietary-files-qcom.txt true

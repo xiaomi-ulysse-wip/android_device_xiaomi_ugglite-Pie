@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/ugglite
+DEVICE_PATH := device/xiaomi/ugg
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8937
@@ -123,7 +123,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := ugglite_defconfig
+TARGET_KERNEL_CONFIG := ugg_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 TARGET_COMPILE_WITH_MSM_KERNEL	:= true
 
@@ -203,5 +203,5 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the common proprietary files
--include vendor/xiaomi/ugglite/BoardConfigVendor.mk
+-include vendor/xiaomi/ugg/BoardConfigVendor.mk
 -include vendor/xiaomi/msm8937-common/BoardConfigVendor.mk

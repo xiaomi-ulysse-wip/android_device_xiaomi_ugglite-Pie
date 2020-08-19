@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=ugglite
+DEVICE=ugg
 DEVICE_COMMON=msm8937-common
 VENDOR=xiaomi
 
