@@ -64,6 +64,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android,com.snapchat.android \
     vidc.enc.dcvs.extra-buff-count=2
 
+# Core Control
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.core_ctl_min_cpu=2 \
+ro.core_ctl_max_cpu=4
+
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
@@ -179,6 +184,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.usb.config.extra=none
 
+# Voltage
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.cutoff_voltage_mv=3200
+
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.qfp=false
+
+# Front Flashlight
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.s5k3p8sp.flash.low=320 \
+persist.s5k3p8sp.flash.light=300 \
+persist.ov16885.flash.low=290 \
+persist.ov16885.flash.light=275
