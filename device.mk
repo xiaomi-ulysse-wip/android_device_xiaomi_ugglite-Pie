@@ -395,3 +395,6 @@ $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-ve
 
 # Kang from xiaomi-ulysse dt
 $(call inherit-product, $(DEVICE_PATH)/kang/device.mk)
+
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/ugg.mk)
